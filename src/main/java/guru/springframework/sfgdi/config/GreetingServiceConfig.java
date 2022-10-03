@@ -13,7 +13,6 @@ import org.springframework.context.annotation.*;
  * @author codejss
  */
 @Configuration
-@PropertySource("classpath:datasource.properties")
 @ImportResource("classpath:sfgdi-config.xml")
 public class GreetingServiceConfig {
 
